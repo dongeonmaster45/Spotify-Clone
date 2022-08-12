@@ -1,0 +1,114 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
+
+nav ul li {
+  padding: 30px 12px;
+}
+
+.brand img {
+  width: 65px;
+  padding: 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  margin-left: 75%;
+}
+
+.container {
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  margin: 23px auto;
+  width: 80%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("nfak.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+#mybar {
+  width: 70vw;
+  cursor: pointer;
+}
+
+.songitem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  color: black;
+  margin: 12px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  border-radius: 30px;
+}
+
+.songitem img {
+  width: 87px;
+  border-radius: 30px;
+}
+
+.songitem i {
+  cursor: pointer;
+}
+
+.timestamp {
+  margin: 13px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
